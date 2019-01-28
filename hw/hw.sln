@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hw", "hw\hw.csproj", "{9D38
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dictionary", "dictionary\dictionary.csproj", "{15D475EF-370C-43EE-884C-4E52CBC87279}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "method", "method\method.csproj", "{14EAE222-B833-46DB-A723-6BE373CDA649}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{15D475EF-370C-43EE-884C-4E52CBC87279}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15D475EF-370C-43EE-884C-4E52CBC87279}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15D475EF-370C-43EE-884C-4E52CBC87279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14EAE222-B833-46DB-A723-6BE373CDA649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14EAE222-B833-46DB-A723-6BE373CDA649}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14EAE222-B833-46DB-A723-6BE373CDA649}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14EAE222-B833-46DB-A723-6BE373CDA649}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
