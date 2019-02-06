@@ -15,6 +15,13 @@ namespace method
             Console.WriteLine(result);
             double val1 = 10.5;
             double val2 = 1.5;
+
+            string s = "Hello World! : )";
+            for (int i = s.Length -1; i >=0; i--)
+            {
+                Console.Write(s[i]);
+            }
+
             Subtraction(val1, val2);
             //calls the method
             Console.ReadKey();

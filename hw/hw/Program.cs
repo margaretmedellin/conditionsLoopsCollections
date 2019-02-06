@@ -23,5 +23,11 @@ namespace hw
             return y;
             
         }
+
+        static double Factorial (int num)
+        {
+            int answer = num 
+            return answer;
+        }
     }
 }
