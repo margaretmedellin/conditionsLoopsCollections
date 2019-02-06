@@ -24,5 +24,27 @@ namespace WPF1
         {
             InitializeComponent();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            Ap a = new Ap();
+            a.zipcode = Convert.ToInt32(textZip.Text);
+            a.name = textName.Text;
+            a.address = textAddress.Text;
+            submits.Items.Add(a);
+
+        }
+
+        private void submits_SelectionChanged(object sender, SelectionChangedEventArgs e)
+
+        }
+
+        }
+
+        private void textName_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
     }
 }

@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBox x:Name="textName" HorizontalAlignment="Left" Height="23" Margin="213,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="textName_TextChanged"/>
+        <TextBox x:Name="textAddress" HorizontalAlignment="Left" Height="23" Margin="213,163,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="button" Content="OK" HorizontalAlignment="Left" Margin="365,298,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        <Label x:Name="name" Content="Name:&#xD;&#xA;" HorizontalAlignment="Left" Margin="129,103,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="address" Content="Address:&#xD;&#xA;" HorizontalAlignment="Left" Margin="129,163,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="zipcode" Content="Zipcode:&#xD;&#xA;" HorizontalAlignment="Left" Margin="129,223,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textZip" Height="23" Margin="213,227,459,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <ListBox x:Name="submits" HorizontalAlignment="Left" Height="100" Margin="610,103,0,0" VerticalAlignment="Top" Width="100" SelectionChanged="submits_SelectionChanged"/>
+
     </Grid>
 </Window>
